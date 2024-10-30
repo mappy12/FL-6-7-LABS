@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+</head>
+
+<body>
+
+    <div class="header position-fixed w-100" style="z-index: 1;">
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="info.html">Аарон Пол</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="info.html">Основная страница</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="films.html">Фильмы</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid d-flex">
+
+        <div class="menu col-lg-2">
+            <nav id="sidebarMenu" class="navbar navbar-light bg-light position-fixed"
+                style="top: 0; height: 100%; overflow-y: auto;">
+                <nav class="nav flex-column">
+                    <a class="nav-link" href="#carouselExampleIndicators"><button class="btn btn-danger">Лучшие моменты</button></a>
+                    <a class="nav-link" href="#cardsSection"><button class="btn btn-danger">Фильмы и сериалы</button></a>
+                    <a class="nav-link" href="#aboutActorSection"><button class="btn btn-danger">Краткая информация об
+                            актёре</button></a>
+                </nav>
+            </nav>
+
+        </div>
+
+        <div class="main ms-3 mt-5">
+
+
+            <div class="container my-5">
+                <h1 class="text-center my-5">Лучшие моменты</h1>
+
+                <div class="row">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="src/images/aaron-paul/aaron-pol-1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="src/images//aaron-paul/aaron-pol-2.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="src/images/aaron-paul/aaron-pol-3.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <h1 class="text-center mb-5">Фильмы и сериалы</h1>
+
+            <div id=cardsSection class="container-fluid mb-5">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="src/images/films/breaking-bad.jpg" class="card-img-top img-fixed" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Во все тяжкие</h5>
+                                <p class="card-text">Школьный учитель химии Уолтер Уайт узнаёт, что болен раком лёгких.
+                                    Учитывая сложное финансовое состояние дел семьи, а также перспективы, Уолтер решает
+                                    заняться изготовлением метамфетамина. Для этого он привлекает своего бывшего ученика
+                                    Джесси Пинкмана, когда-то исключённого из школы при активном содействии Уайта.</p>
+                                <a href="https://www.kinopoisk.ru/series/404900/?utm_referrer=www.google.com"
+                                    class="btn btn-danger">Кинопоиск</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="src/images/films/need-for-speed.jpg" class="card-img-top img-fixed" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Need for Speed: Жажда скорости</h5>
+                                <p class="card-text">История Тоби Маршалла, гениального автомеханика, чьей единственной
+                                    отдушиной является участие в подпольных гонках. Чтобы сохранить семейную мастерскую,
+                                    Тоби вынужден взять в партнеры богатого и заносчивого бывшего гонщика IndyCar Дино
+                                    Брюстера. Когда дела Тоби наконец-то начинают идти в гору, Дино подставляет
+                                    партнера, и
+                                </p>
+                                <a href="https://www.kinopoisk.ru/film/678975/" class="btn btn-danger">Кинопоиск</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex">
+                        <div class="card">
+                            <img src="src/images/films/better-call-to-soul.jpg" class="card-img-top img-fixed"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Лучшие звоните Солу</h5>
+                                <p class="card-text">История об испытаниях и невзгодах, которые приходится преодолеть
+                                    Солу
+                                    Гудману, адвокату по уголовным делам, в тот период, когда он пытается открыть свою
+                                    собственную адвокатскую контору в Альбукерке, штат Нью-Мексико.</p>
+                                <a href="https://www.kinopoisk.ru/series/796660/" class="btn btn-danger">Кинопоиск</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="aboutActorSection" class="about-aaron d-flex justify-content-center my-5">
+
+
+                <p>
+                    <button class="btn btn-danger" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseWidthExample" aria-expanded="false"
+                        aria-controls="collapseWidthExample">
+                        Краткая информация об актёре
+                    </button>
+                </p>
+                <div style="min-height: 120px;">
+                    <div class="collapse collapse-horizontal mx-3" id="collapseWidthExample">
+                        <div class="card card-body" style="width: 600px;">
+                            Аа́рон Пол Сте́ртевант (англ. Aaron Paul Sturtevant; род. 27 августа 1979 года) —
+                            американский
+                            актёр, наиболее известный по роли Джесси Пинкмана в культовом сериале «Во все тяжкие». За
+                            эту
+                            роль Пол трижды был удостоен премии «Эмми» в категории «Лучший актёр второго плана в
+                            драматическом телесериале», став одним из немногих актёров, выигравших награду в этой
+                            категории
+                            трижды. Работа в «Во все тяжкие» принесла Полу международное признание и сделала его
+                            персонажа
+                            одним из самых запоминающихся в истории телевидения. Помимо этого, он также сыграл в фильмах
+                            «Need for Speed: Жажда скорости», «Экспат» и сериале «Мир Дикого Запада».
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
